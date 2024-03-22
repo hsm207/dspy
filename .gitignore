@@ -1,6 +1,7 @@
 /experiments/
 /checkpoints/
-# /data/
+.devcontainer/data
+/data
 /logs/
 /mlruns/
 /profiler/
@@ -28,7 +29,7 @@ __pycache__/
 *.tsv
 *.pt
 gpt*.txt
-*.env
+# *.env
 local/
 local_*
 build/
