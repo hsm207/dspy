@@ -23,7 +23,8 @@
 		}
 	},
 	"containerEnv": {
-		"POETRY_VIRTUALENVS_IN_PROJECT": "true"
+		"POETRY_VIRTUALENVS_IN_PROJECT": "true",
+		"HUGGING_FACE_HUB_TOKEN": "<YOUR_HUGGINGFACE_TOKEN>"
 	},
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
