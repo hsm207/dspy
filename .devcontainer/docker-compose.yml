@@ -6,6 +6,13 @@ services:
     command: sleep infinity
     volumes:
       - ../..:/workspaces:cached
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
     
   llm:
     image: ghcr.io/huggingface/text-generation-inference:1.4
